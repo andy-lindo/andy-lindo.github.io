@@ -40,6 +40,5 @@ body { width: 100%;
 
 .footer{
 	background-image: linear-gradient(to bottom, #fffff8, #ffffee);
-	height: 5%;
-	padding: 5px;
+	height: 10%;
 }
