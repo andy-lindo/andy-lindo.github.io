@@ -39,6 +39,12 @@ body {
     padding-right: 5px
 }
 
+.navigation {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .li {
 	display: inline-block;
     padding-right: 5px;
@@ -64,4 +70,7 @@ body {
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 900px)
+.top .navigation-wrapper .navigation {
+    vertical-align: middle;
+}
