@@ -8,3 +8,9 @@ body { width: 87.5%;
        color: #111;
        max-width: 1400px;
        counter-reset: sidenote-counter; }
+
+.top {
+	text-align: left;
+	background-image: linear-gradient(to bottom, #fffff8, #ffffcc);
+	height: 50px
+}
