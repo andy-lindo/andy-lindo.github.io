@@ -13,6 +13,6 @@ body { width: 100%;
 .top {
 
 	text-align: left;
-	background-image: linear-gradient(to top, #fffff8, #ffffcc);
+	background-image: linear-gradient(to top, #fffff8, ##ffffe6);
 	height: 50px
 }
