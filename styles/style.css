@@ -34,18 +34,15 @@ body {
 .top {
 	text-align: left;
 	background-image: linear-gradient(to top, #fffff8, #ffffee);
-	height: 10%
+	height: 9%
 }
 
 .main{
-	height: 90%;
+	height: 81%;
 	font: 16px/1.5 normal normal;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
 }
 
-.footer-pad {
-	height: 10%
-}
 
 .footer{
 	background-image: linear-gradient(to bottom, #fffff8, #ffffee);
