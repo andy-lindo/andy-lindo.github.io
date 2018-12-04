@@ -18,7 +18,8 @@ body { width: 100%;
        background-color: #fffff8;
        color: #111;
        max-width: 1400px;
-       counter-reset: sidenote-counter; 
+       counter-reset: sidenote-counter;
+       height: 100%;
    }
 
 .top {
