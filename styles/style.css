@@ -11,6 +11,6 @@ body { width: 87.5%;
 
 .top {
 	text-align: left;
-	background-image: linear-gradient(to bottom, #fffff8, #ffffcc);
+	background-image: linear-gradient(to top, #fffff8, #ffffcc);
 	height: 50px
 }
