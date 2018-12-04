@@ -28,7 +28,6 @@ body {
 	background-image: linear-gradient(to top, #fffff8, #ffffee);
 	height: 10%;
 	font-size: 14px;
-    padding: 15px 10px;
 }
 
 .navigation-wrapper {
@@ -69,9 +68,14 @@ body {
 	background-image: linear-gradient(to bottom, #fffff8, #ffffee);
 	height: 10%
 }
+media (max-width: 900px)
 
+}
 
 @media (max-width: 900px)
 .top .navigation-wrapper .navigation {
     vertical-align: middle;
 }
+.top {
+    height: auto;
+    padding: 15px 10px;
