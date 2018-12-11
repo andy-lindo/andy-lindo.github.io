@@ -26,8 +26,9 @@ body {
 .top {
 	text-align: left;
 	background-image: linear-gradient(to top, #fffff8, #ffffee);
-	height: 10%;
+	height: 50px;
 	font-size: 14px;
+    padding: 5px 0;
 }
 
 .navigation-wrapper {
@@ -79,3 +80,4 @@ media (max-width: 900px)
 .top {
     height: auto;
     padding: 15px 10px;
+}
