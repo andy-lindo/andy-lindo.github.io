@@ -1,3 +1,78 @@
+/* latin */
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abel Regular'), local('Abel-Regular'), url(https://fonts.gstatic.com/s/abel/v8/MwQ5bhbm2POE2V9BPbh5uGM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Code Pro Light'), local('SourceCodePro-Light'), url(https://fonts.gstatic.com/s/sourcecodepro/v8/HI_XiYsKILxRpg3hIP6sJ7fM7PqtlsnDvecq7Gq0DDzS.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Code Pro Light'), local('SourceCodePro-Light'), url(https://fonts.gstatic.com/s/sourcecodepro/v8/HI_XiYsKILxRpg3hIP6sJ7fM7PqtlsnDs-cq7Gq0DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v8/HI_SiYsKILxRpg3hIP6sJ7fM7PqlM-vWnsUnxlC9.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v8/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevWnsUnxg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Source Code Pro Medium'), local('SourceCodePro-Medium'), url(https://fonts.gstatic.com/s/sourcecodepro/v8/HI_XiYsKILxRpg3hIP6sJ7fM7PqtzsjDvecq7Gq0DDzS.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Source Code Pro Medium'), local('SourceCodePro-Medium'), url(https://fonts.gstatic.com/s/sourcecodepro/v8/HI_XiYsKILxRpg3hIP6sJ7fM7PqtzsjDs-cq7Gq0DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'), url(https://fonts.gstatic.com/s/sourcecodepro/v8/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Dvecq7Gq0DDzS.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Code Pro Bold'), local('SourceCodePro-Bold'), url(https://fonts.gstatic.com/s/sourcecodepro/v8/HI_XiYsKILxRpg3hIP6sJ7fM7Pqths7Ds-cq7Gq0DA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
 @charset "UTF-8";
 
 * {
@@ -22,42 +97,104 @@ body {
     counter-reset: sidenote-counter;
     height: 100%
 }
+#header {
+    text-align: center;
+    padding: 0 30px;
+    -webkit-font-smoothing: antialiased;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 1002;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 1em;
+    position: relative;
+    vertical-align: middle;
+}
+.inner {
+    line-height: 1em;
+    padding: 20px 0;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin:auto;
+    display:block;
+}
+#title-wrapper {
+    transform: translate(-50%,0);
+    position: relative;
+    width:255px;
+    left: 50%;
+    z-index: 1000;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    display: block;
+}
+
+#title{
+    width:255px;
+}
+
 
 .top {
 	text-align: left;
 	background-image: linear-gradient(to top, #fffff8, #ffffee);
 	height: 50px;
 	font-size: 14px;
-    padding: 5px 0;
+    padding: 0 30px;
+    font-family: "Abel";
 }
 
+
 .navigation-wrapper {
+    display: inline-block;
     margin: 0 auto;
-    width: 100%;
+    width: 860px;
+    margin: 0 auto;
     text-align: center;
-    padding-left: 5px;
-    padding-right: 5px
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .navigation {
+    display: inline-block;
 	list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline-block;
 }
 
-.li {
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+li {
+    float: left;
 	display: inline-block;
     padding-right: 5px;
     height: 33px;
     vertical-align: top;
 }
 
-.a{
+a{
     padding: 5px;
     display: inline-block;
+    text-decoration: none;
 }
 
+h1 {
+    text-rendering: optimizeLegibility;
+    color:#584b4f;
+    font-family: "Source Code Pro";
+    letter-spacing: 0.166667em;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase
+}
 .main{
 	height: 90%;
 	font: 16px/1.5 normal normal;
@@ -69,15 +206,9 @@ body {
 	background-image: linear-gradient(to bottom, #fffff8, #ffffee);
 	height: 10%
 }
-media (max-width: 900px)
 
-}
 
 @media (max-width: 900px)
 .top .navigation-wrapper .navigation {
     vertical-align: middle;
-}
-.top {
-    height: auto;
-    padding: 15px 10px;
 }
