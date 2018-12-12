@@ -82,7 +82,8 @@
 }
 
 html {
-    height: 100%
+    height: 100%;
+    font-family: "Source Code Pro"
 }
 
 body { 
@@ -139,25 +140,22 @@ body {
 }
 
 
-.top {
-	text-align: left;
-	background-image: linear-gradient(to top, #fffff8, #ffffee);
-	height: 50px;
-	font-size: 14px;
-    padding: 0 30px;
-    font-family: "Abel";
-}
 
 
-.navigation-wrapper {
-    display: inline-block;
-    margin: 0 auto;
-    width: 860px;
-    margin: 0 auto;
+html:not(.no-js) body:not(.always-use-overlay-nav) #navigation-wrapper {
     text-align: center;
-    padding-left: 0;
-    padding-right: 0;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    vertical-align: middle;
+    transition: opacity .3s ease-out;
+    margin-left: 25px;
+    margin-top: -43px;
+    margin-bottom: -0px;
+    top: 0;
+    left:0;
 }
+
 
 .navigation {
     display: inline-block;
@@ -166,24 +164,69 @@ body {
     padding: 0;
 }
 
-ul {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+
+#active{
+    color:#080707
 }
 
-li {
-    float: left;
-	display: inline-block;
-    padding-right: 5px;
-    height: 33px;
-    vertical-align: top;
-}
-
-a{
-    padding: 5px;
+.collection {
     display: inline-block;
-    text-decoration: none;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 14px;
 }
+
+.margin-right{
+    margin-right: 160px;
+}
+
+.margin-left{
+    margin-left: 160px;
+}
+
+
+#title a {
+    font-family: "Raleway",Arial,sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: "Source Code Pro";
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-style: normal;
+    color: #e7d0ba;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    line-height: 1.2em;
+    letter-spacing: 0.16666em
+    display: block;
+    padding: .75em 1em;
+    color: 
+}
+
+#navigation-wrapper a{
+    font-family: "Raleway",Arial,sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: "Source Code Pro";
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1em;
+    display: block;
+    padding: .75em 1em;
+    opacity: .6;
+}
+
+
+
 
 h1 {
     text-rendering: optimizeLegibility;
@@ -195,20 +238,4 @@ h1 {
     font-weight: 400;
     text-transform: uppercase
 }
-.main{
-	height: 90%;
-	font: 16px/1.5 normal normal;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
-}
 
-
-.footer{
-	background-image: linear-gradient(to bottom, #fffff8, #ffffee);
-	height: 10%
-}
-
-
-@media (max-width: 900px)
-.top .navigation-wrapper .navigation {
-    vertical-align: middle;
-}
